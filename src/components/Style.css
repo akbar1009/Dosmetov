@@ -1182,10 +1182,137 @@ linear;;
 
 
 
-
+.bookk{
+  width: 1214px;
+  margin: 0 auto;
+  padding: 47px 0 60px; 
+}
 .bookk-h2{
   font-weight: 500;
   font-size: 40px;
   line-height: 90%;
   color: white;
+}
+.bookk-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.bookk-input{
+  padding: 13px 57px;
+  width: 355px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 90%;
+  color: #FFFFFF99;
+  border: 1px solid #E1E0DE80;
+  background-color: transparent;
+  border-radius: 8px;
+}
+.bookk-book{
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF1A;
+  margin-bottom: 60px;
+  border-radius: 8px;
+}
+.bookk-book-left{
+  width: 614px;
+}
+.bookk-span{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 90%;
+  color: white;
+  margin-bottom: 50px;
+}
+.bookk-h4{
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 90%;
+  color: white;
+  margin-bottom: 30px;
+}
+.bookk-p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: white;
+  margin-bottom: 70px;
+}
+.bookk-btn{
+  width: 206px;
+  padding: 12px 70px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+  color: white;
+  background-color: #4F5D2F;
+  border: 1px solid #4F5D2F;
+  border-radius: 8px;
+  margin-bottom: 55px;
+}
+.bookk-book-btns{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.bookk-book-btn1{
+  width: 46px;
+  height: 46px;
+  background-color: transparent;
+  border: 1px solid #8AAB3F;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bookk-ul{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.bookk-li{
+  width: 281px;
+  height: 381px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.bookk-span-li{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 90%;
+  color: #FFFFFFB2;
+  margin-top: 300px;
+}
+.bookk-strong{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: white;
+}
+
+
+
+
+
+.bookk-teach{
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 90%;
+  color: white;
+  margin-bottom: 30px;
+}
+.bookk-ul2{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
 }
