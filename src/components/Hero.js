@@ -10,7 +10,7 @@ export default function Hero(){
                     <div className="hero-btns">
                         <button className="hero-btn">Kurslari</button>
                         <Link className="hero-btn" to={"/podcasts"}>Podcastlari</Link>
-                        <button className="hero-btn">Kitoblari</button>
+                        <Link className="hero-btn" to={"/book"}>Kitoblari</Link>
                         <button className="hero-btn">Tavsiyalari</button>
                         <button className="hero-btn">Batafsil</button>
                     </div>
