@@ -1,20 +1,17 @@
 import bag from '../images/chemodan.svg'
-import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
-import FirebaseApp, { auth } from '../firebase';
-
+import { getAuth,GoogleAuthProvider,signInWithPopup } from 'firebase/auth';
+import Firebase from '../firebase';
+Firebase();
 export default function SignUp({openSign,onCloseSign}){
-        // use the exported `auth` instance from src/firebase.js
+        const auth = getAuth();
         const provider = new GoogleAuthProvider();
-        const handleGoogleSignUp = async () => {
-            try {
-                const res = await signInWithPopup(auth, provider);
+        const handleGoogleSignUp = () => {
+            signInWithPopup(auth, provider)
+            .then((res)=>{
                 console.log(res);
-            } catch (err) {
-                console.error('Google sign-in failed:', err);
-            }
-        };
-
-    if (!openSign) return null;
+            })
+        }
+    if(!openSign) return;
     return(
         <div className='sign'>
         <div className="overlay">

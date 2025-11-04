@@ -20,14 +20,14 @@ export default function Navbar(){
             <div className='navbar'>
                 <button className='navbar-btn' onClick={()=>setOpenstate(true)}>
                 <img src={menu}/>Menyu</button>
-                <Link to={"/"}><img src={logo}/></Link>
+                <Link className='logo-link' to={"/"}><img src={logo}/></Link>
                 <div className='div-nav'>
                     <button className='tel-nav'>
                         <img src={telefon}/>
                         +998 97 628 28 82
                     </button>
                     <img src={search}/>
-                    <button className='tel-nav'>
+                    <button className='language-nav'>
                         <img src={globus}/>
                         UZ
                     </button>

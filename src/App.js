@@ -8,6 +8,7 @@ import Podcasts from './components/Podcasts';
 import MenuModal from './components/MenuModal';
 import SignUp from './components/SignUp';
 import Book from './components/Book';
+import BookPage from './components/BookPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/about' element={<AuthorPage/>}/>
           <Route path='/podcasts' element={<Podcasts/>}/>
           <Route path='/book' element={<Book/>}/>
+          <Route path='/bookpage' element={<BookPage/>}/>
         </Routes>
         <Footer/>
       </div>

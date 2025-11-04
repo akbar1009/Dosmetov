@@ -6,6 +6,7 @@ import bookk1 from '../images/bookk1.png'
 import bookk2 from '../images/bookk2.png'
 import bookk3 from '../images/bookk3.png'
 import bookk4 from '../images/bookk4.png'
+import { Link } from 'react-router-dom'
 export default function Book(){
     const bookks = [
         {id:1,author:"Robert Kiosaki",name:"Boy ota va Kambag’al ota",img:bookk1},
@@ -30,7 +31,7 @@ export default function Book(){
                         <h4 className="bookk-h4">Qadam - baqadam</h4>
                         <p className="bookk-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                        <button className="bookk-btn">Batafsil</button>
+                        <Link className="bookk-btn" to={"/bookpage"}>Batafsil</Link>
                         <div className="bookk-book-btns">
                             <button className="bookk-book-btn1">
                                 <img src={imgLeft}/>

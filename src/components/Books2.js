@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import bookOne from '../images/book2-1.png'
 import book2One from '../images/rich-father.png'
 import book2Two from '../images/richer.png'
@@ -21,7 +22,7 @@ export default function Books2(){
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                                 </p>
-                                <button className='book2-btn'>Batafsil</button>
+                                <Link className="book2-btn" to={"/book"}>Batafsil</Link>
                             </div>
                         </div>
                         <div className='book2-divs'>
